@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 329 233" width="329" height="233">
+	<defs>
+		<image width="329" height="233" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUkAAADpAQMAAACTL1exAAAAAXNSR0IB2cksfwAAAAZQTFRF7J4D7J4DblGLQwAAAAJ0Uk5T/P/jmIwEAAAAOklEQVR4nO3KsQ0AAAgDoH7u6fYFVxOYyexRoqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqPagEe57lMa2jygAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill-opacity: 0.902;fill: #bc7d00 } 
+	</style>
+	<g id="section_1">
+		<g id="scroll_2">
+			<use id="Layer 22 copy 3" href="#img1" x="0" y="0" />
+			<path id="twitter" class="shp0" d="M246 74.31L230.72 89.63C230.72 89.63 230.72 88.24 230.72 92.18C230.72 94.98 230.27 97.65 229.62 100.25C229.26 121.31 222.56 149.25 195.06 171.3C140.96 214.67 83 176.4 83 176.4C128.84 176.4 128.84 161.09 128.84 161.09C118.66 161.09 98.28 140.67 98.28 140.67C103.37 145.77 113.56 140.67 113.56 140.67C88.09 125.36 88.09 110.04 88.09 110.04C93.19 115.15 103.37 110.04 103.37 110.04C77.91 89.63 93.19 64.1 93.19 64.1C98.28 89.63 164.5 99.83 164.5 99.83L165.34 99.41C164.82 97.08 164.5 92.12 164.5 89.63C164.5 71.3 179.32 59 197.61 59C207.67 59 216.58 63.6 222.65 70.7L225.62 69.21L240.91 59L230.72 79.42L246 74.31Z" />
+		</g>
+	</g>
+</svg>

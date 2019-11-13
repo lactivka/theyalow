@@ -1,0 +1,974 @@
+@import url('https://fonts.googleapis.com/css?family=Asap|Open+Sans:400,700|PT+Sans|PT+Sans+Narrow:400,700&display=swap');
+
+@font-face {
+    font-family: 'Segoe WP';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./assets/fonts/SegoeWP.ttf');
+}
+
+@font-face {
+    font-family: 'Segoe WP Light';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./assets/fonts/segoe-wp-light.ttf');
+}
+
+@font-face {
+    font-family: "Lucida Sans";
+    font-weight: normal;
+    font-style: normal;
+    src: url('./assets/fonts/lucida.ttf');
+}
+
+@font-face {
+    font-family: "Asap";
+    font-weight: normal;
+    font-style: normal;
+    src: url('./assets/fonts/asap/Asap-Regular.otf');
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-style: normal;
+    src: url('./assets/fonts/ofont.ru_Segoe\ UI\ Light.ttf');
+}
+
+@font-face {
+    font-family: "Segoe UI Bold";
+    font-weight: normal;
+    font-style: normal;
+    src: url('./assets/fonts/Segoe\ UI\ Bold.ttf');
+}
+
+body {
+    background: white;
+    width: 1300px;
+    height: 100%;
+    margin: 0px;
+}
+
+* {
+   background-repeat: no-repeat no-repeat; 
+}
+
+.wrapper-header {
+    background-image: url('./assets/images/bgvideo.svg');
+    height: 564px;    
+}
+
+.logo-icon {
+    position: absolute;
+    top: 28px;
+    left: 140px;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 41px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    position: absolute;
+    top: 45px;
+    left: 228px;
+}
+
+.navbar {
+    margin-top: 56px;
+    position: absolute;
+    padding-left: 707px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    width: 452px;
+    height: 40px;
+    background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+    justify-content: space-around;
+    padding: unset;
+}
+
+.navbar ul li a {
+    display: flex;
+    font-size: 17px;
+    color: #9b7d08;
+    font-family: "Segoe WP";
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 7px 9px 0px 0px;
+}
+
+.about-us {
+    margin-left: 20px;
+}
+
+.services {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #b99403;
+}
+
+.contact {
+    padding-right: 5px;
+}
+
+.navbar-shadow1 {
+    width: 453px;
+    height: 40px;
+    background-color: #f5c506;
+    opacity: 27%;
+    position: absolute;
+    top: 67px;
+    left: 704px;
+}
+
+.navbar-shadow2 {
+    width: 453px;
+    height: 40px;
+    background-color: #f5c506;
+    opacity: 27%;
+    position: absolute;
+    top: 64px;
+    left: 700px;
+}
+
+.wrapper-video {
+    padding-top: 166px;
+    padding-left: 148px;
+    letter-spacing: 1px; 
+    font-family: "Asap";
+    text-transform: uppercase;
+}
+
+.mobile-video {
+    display: none;
+}
+
+.slider-left {
+    position: absolute;
+    top: 299px;
+    left: 0px;  
+}
+
+.slider-right {
+    position: absolute;
+    top: 299px;
+    left: 1267px;
+}
+
+.h1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    top: 217px;
+    left: 734px;
+}
+
+.the-cool {
+    font-size: 63px;
+    font-weight: 400;
+    color: #f5c506;
+}
+
+.the-minimal {
+    font-size: 63px;
+    font-weight: 400;
+    color: white;
+    margin: -3px 0 0 11px;
+}
+
+.wrapper-icons {
+    background-image: url('./assets/images/bgicons.jpg');
+    height: 214px;
+    display: flex;
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center; 
+    filter: drop-shadow(-1.105px -3.998px 2.5px rgba(0,0,0,0.15));  
+}
+
+.better-design {
+    width: 340px;
+    border-left: 1px solid #c4c3c3;
+    padding-top: 61px;
+}
+
+.better-design img {
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+
+.better-design span {
+    padding-left: 20px;
+}
+
+.customise {
+    width: 340px;
+    border-right: 1px solid #c4c3c3;
+    border-left: 1px solid #c4c3c3;
+    padding-top: 37px;
+}
+
+.customise img {
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+
+.customise span {
+    padding-left: 19px;
+}
+
+.its-free {
+    width: 340px;
+    border-right: 1px solid #c4c3c3;
+    padding-top: 53px;
+}
+
+.its-free img {
+    padding-right: 24px;
+    padding-bottom: 3px;
+}
+
+.its-free span {
+    padding-right: 19px;
+}
+
+.wrapper-content {
+    background-image: url('./assets/images/bgcontent.svg');
+    height: 507px;
+    padding-top: 1px;
+}
+
+.h2 {
+    width: 520px;
+    font-size: 37px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 141px;
+    text-align-last: justify;
+}
+
+.video-description {
+    box-sizing: border-box;
+    width: 340px;
+    height: 232px;
+    background-color: rgb(236, 158, 3);
+    letter-spacing: 0.4px;
+    font-size: 29px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP Light";
+    position: absolute;
+    top: 888px;
+    left: 140px;
+    padding: 17px 0px 0px 28px;
+    z-index: 1;
+}
+
+.plus-description {
+    position: absolute;
+    top: 191px;
+    left: 313px;
+}
+
+.plus-description :hover {
+    background-color: rgb(255, 94, 0);
+}
+
+.video-small {
+    width: 349px;
+    height: 232px;
+    position: absolute;
+    top: 888px;
+    left: 446px;
+    overflow: hidden;
+}
+
+.twitter-logo {
+    position: absolute;
+    top: 888px;
+    left: 829px;
+}
+
+.plus-twitter {
+    position: absolute;
+    top: 1095px;
+    left: 1135px;
+
+}
+
+.plus-twitter:hover {
+    background: rgb(255, 94, 0);
+}
+
+.twitter span {
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: rgb(255, 255, 255, 0.8);
+    font-family: "Segoe WP Light";
+    font-weight: 300;
+    position: absolute;
+    top: 897px;
+    left: 1114px;
+    z-index: 1;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    width: 111px;
+    height: 88px;
+    position: absolute;
+    top: 1119px;
+    left: 140px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: "Segoe UI";
+    text-transform: uppercase;
+    background-color: #ddb101;
+    text-align: center;
+    padding: 14px 0px 0px 5px;
+    box-sizing: border-box;
+}
+
+.date span {
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe UI Bold";
+}
+
+.scroll-bar {
+    position: absolute;
+    top: 1248px;
+    left: 211px;
+}
+
+.wrapper-versions {
+    background-image: url('./assets/images/bgversions.svg');
+    height: 499px;
+}
+
+.menu-header {
+    width: 604px;
+    font-size: 43px;
+    letter-spacing: 0px;
+    color: #f5c506;
+    font-family: "PT Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 35px 0px 0px 351px;
+    text-align-last: justify;
+}
+
+.desktop {
+    position: absolute;
+    top: 1422px;
+    left: 158px;
+
+}
+
+.label {
+    width: 117px;
+    height: 117px;
+    position: absolute;
+    top: 1379px;
+    left: 137px;
+    font-size: 19px;
+    color: #ffffff;
+    font-family: "PT Sans Narrow";
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #f5c506;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.label span {
+    position: absolute;
+    top: 49px;
+    left: 8px;
+}
+
+.tablet {
+    position: absolute;
+    top: 1465px;
+    left: 505px;
+}
+
+.mobile {
+    position: absolute;
+    top: 1575px;
+    left: 659px;
+}
+
+.menu {
+    position: absolute;
+    top: 1450px;
+    left: 771px;
+}
+
+.menu-items {
+    list-style: none;
+    width: 352px;
+    height: 45px;
+    font-size: 22px;
+    letter-spacing: 0.1px;
+    color: #a9a9a7;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 4px;
+}
+
+.span1 {
+    position: absolute;
+    top: 24px;
+    left: 8px;
+    background-color: #f5c506;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+}
+
+.span2 {
+    position: absolute;
+    top: 74px;
+    left: 7px;
+    background-color: #f5c506;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+}
+
+.span3 {
+    position: absolute;
+    top: 140px;
+    left: 8px;
+    background-color: #f5c506;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+}
+
+.span4 {
+    position: absolute;
+    top: 191px;
+    left: 7px;
+    background-color: #f5c506;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+}
+
+.wrapper-footer {
+    background-color: #4c4c4c;
+    height: 64px;
+    filter: drop-shadow(-0.105px -2.998px 2.5px rgba(0,0,0,0.75));
+}
+
+.logo-icon-footer {
+    position: absolute;
+    top: 3px;
+    left: 138px;
+}
+
+.logo-footer {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.42));
+    text-transform: uppercase;
+    padding-left: 200px;
+    padding-top: 11px;
+}
+
+@media (max-width: 640px) {
+    #body {
+        background: white;
+        width: 640px;
+        height: 100%;
+        margin: 0px;
+    }
+    
+    * {
+       background-repeat: no-repeat no-repeat; 
+    }
+    
+    .wrapper-header {
+        background-image: url('./assets/images/bgvideo.svg');
+        height: 386px;    
+    }
+
+    .logo-wrapper {
+        width: 186px;
+        height: 62px;
+        position: absolute;
+        background-color: #3e3e3c;
+    }
+    
+    .logo-icon {
+        position: absolute;
+        top: 10px;
+        left: 11px;
+        width: 42px;
+        height: 40px;
+    }
+    
+    .logo {
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        font-size: 19px;
+        color: #ffffff;
+        font-family: "Lucida Sans";
+        font-style: italic;
+        position: absolute;
+        top: 19px;
+        left: 57px;
+        text-align-last: justify;
+        filter: drop-shadow(1px 1.732px 0px rgba(0,0,0,0.42));
+    }
+    
+    .navbar {
+        margin-top: 56px;
+        position: absolute;
+        padding-left: 707px;
+    }
+    
+    .navbar ul {
+        display: flex;
+        list-style-type: none;
+        width: 452px;
+        height: 40px;
+        background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+        justify-content: space-around;
+        padding: unset;
+    }
+    
+    .navbar ul li a {
+        display: flex;
+        font-size: 17px;
+        color: #9b7d08;
+        font-family: "Segoe WP";
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 7px 9px 0px 0px;
+    }
+    
+    .about-us {
+        margin-left: 20px;
+    }
+    
+    .services {
+        border-left: 1px solid;
+        border-right: 1px solid;
+        border-color: #b99403;
+    }
+    
+    .contact {
+        padding-right: 5px;
+    }
+    
+    .navbar-shadow1 {
+        width: 453px;
+        height: 40px;
+        background-color: #f5c506;
+        opacity: 27%;
+        position: absolute;
+        top: 67px;
+        left: 704px;
+    }
+    
+    .navbar-shadow2 {
+        width: 453px;
+        height: 40px;
+        background-color: #f5c506;
+        opacity: 27%;
+        position: absolute;
+        top: 64px;
+        left: 700px;
+    }
+    
+    .wrapper-video {
+        padding-top: 166px;
+        padding-left: 148px;
+        letter-spacing: 1px; 
+        font-family: "Asap";
+        text-transform: uppercase;
+    }
+
+    .desktop-video {
+        display: none;
+    }
+
+    .mobile-video {
+        display: inherit;
+    }
+    
+    .slider-left {
+        display: none;
+    }
+    
+    .slider-right {
+        display: none;
+    }
+    
+    .h1 {
+        display: none;
+    }
+    
+    .the-cool {
+        font-size: 63px;
+        font-weight: 400;
+        color: #f5c506;
+    }
+    
+    .the-minimal {
+        font-size: 63px;
+        font-weight: 400;
+        color: white;
+        margin: -3px 0 0 11px;
+    }
+    
+    .wrapper-icons {
+        background-image: url('./assets/images/bgicons.jpg');
+        height: 214px;
+        display: flex;
+        font-size: 27px;
+        letter-spacing: 0px;
+        color: #000000;
+        font-family: "Segoe UI";
+        font-weight: 300;
+        text-align: center;
+        text-transform: uppercase;
+        justify-content: center; 
+        filter: drop-shadow(-1.105px -3.998px 2.5px rgba(0,0,0,0.15));  
+    }
+    
+    .better-design {
+        width: 340px;
+        border-left: 1px solid #c4c3c3;
+        padding-top: 61px;
+    }
+    
+    .better-design img {
+        padding-right: 5px;
+        padding-bottom: 3px;
+    }
+    
+    .better-design span {
+        padding-left: 20px;
+    }
+    
+    .customise {
+        width: 340px;
+        border-right: 1px solid #c4c3c3;
+        border-left: 1px solid #c4c3c3;
+        padding-top: 37px;
+    }
+    
+    .customise img {
+        padding-left: 20px;
+        padding-bottom: 7px;
+    }
+    
+    .customise span {
+        padding-left: 19px;
+    }
+    
+    .its-free {
+        width: 340px;
+        border-right: 1px solid #c4c3c3;
+        padding-top: 53px;
+    }
+    
+    .its-free img {
+        padding-right: 24px;
+        padding-bottom: 3px;
+    }
+    
+    .its-free span {
+        padding-right: 19px;
+    }
+    
+    .wrapper-content {
+        background-image: url('./assets/images/bgcontent.svg');
+        height: 507px;
+        padding-top: 1px;
+    }
+    
+    .h2 {
+        width: 520px;
+        font-size: 37px;
+        color: #ffffff;
+        font-family: "PT Sans";
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-left: 141px;
+        text-align-last: justify;
+    }
+    
+    .video-description {
+        box-sizing: border-box;
+        width: 340px;
+        height: 232px;
+        background-color: rgb(236, 158, 3);
+        letter-spacing: 0.4px;
+        font-size: 29px;
+        line-height: 38px;
+        color: #ffffff;
+        font-family: "Segoe WP Light";
+        position: absolute;
+        top: 888px;
+        left: 140px;
+        padding: 17px 0px 0px 28px;
+        z-index: 1;
+    }
+    
+    .plus-description {
+        position: absolute;
+        top: 191px;
+        left: 313px;
+    }
+    
+    .plus-description :hover {
+        background-color: rgb(255, 94, 0);
+    }
+    
+    .video-small {
+        width: 349px;
+        height: 232px;
+        position: absolute;
+        top: 888px;
+        left: 446px;
+        overflow: hidden;
+    }
+    
+    .twitter-logo {
+        position: absolute;
+        top: 888px;
+        left: 829px;
+    }
+    
+    .plus-twitter {
+        position: absolute;
+        top: 1095px;
+        left: 1135px;
+    
+    }
+    
+    .plus-twitter:hover {
+        background: rgb(255, 94, 0);
+    }
+    
+    .twitter span {
+        font-size: 25px;
+        letter-spacing: 0px;
+        line-height: 38px;
+        color: rgb(255, 255, 255, 0.8);
+        font-family: "Segoe WP Light";
+        font-weight: 300;
+        position: absolute;
+        top: 897px;
+        left: 1114px;
+        z-index: 1;
+    }
+    
+    .date {
+        display: flex;
+        flex-direction: column;
+        width: 111px;
+        height: 88px;
+        position: absolute;
+        top: 1119px;
+        left: 140px;
+        font-size: 21px;
+        letter-spacing: 1px;
+        line-height: 38px;
+        color: #b26529;
+        font-family: "Segoe UI";
+        text-transform: uppercase;
+        background-color: #ddb101;
+        text-align: center;
+        padding: 14px 0px 0px 5px;
+        box-sizing: border-box;
+    }
+    
+    .date span {
+        font-size: 51px;
+        letter-spacing: 1px;
+        line-height: 38px;
+        color: #ffffff;
+        font-family: "Segoe UI Bold";
+    }
+    
+    .scroll-bar {
+        position: absolute;
+        top: 1248px;
+        left: 211px;
+    }
+    
+    .wrapper-versions {
+        background-image: url('./assets/images/bgversions.svg');
+        height: 499px;
+    }
+    
+    .menu-header {
+        width: 604px;
+        font-size: 43px;
+        letter-spacing: 0px;
+        color: #f5c506;
+        font-family: "PT Sans";
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 35px 0px 0px 351px;
+        text-align-last: justify;
+    }
+    
+    .desktop {
+        position: absolute;
+        top: 1422px;
+        left: 158px;
+    
+    }
+    
+    .label {
+        width: 117px;
+        height: 117px;
+        position: absolute;
+        top: 1379px;
+        left: 137px;
+        font-size: 19px;
+        color: #ffffff;
+        font-family: "PT Sans Narrow";
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: #f5c506;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    
+    .label span {
+        position: absolute;
+        top: 49px;
+        left: 8px;
+    }
+    
+    .tablet {
+        position: absolute;
+        top: 1465px;
+        left: 505px;
+    }
+    
+    .mobile {
+        position: absolute;
+        top: 1575px;
+        left: 659px;
+    }
+    
+    .menu {
+        position: absolute;
+        top: 1450px;
+        left: 771px;
+    }
+    
+    .menu-items {
+        list-style: none;
+        width: 352px;
+        height: 45px;
+        font-size: 22px;
+        letter-spacing: 0.1px;
+        color: #a9a9a7;
+        font-family: "Open Sans";
+        font-weight: 400;
+        line-height: 28px;
+        margin-top: 4px;
+    }
+    
+    .span1 {
+        position: absolute;
+        top: 24px;
+        left: 8px;
+        background-color: #f5c506;
+        border-radius: 50%;
+        width: 14px;
+        height: 14px;
+    }
+    
+    .span2 {
+        position: absolute;
+        top: 74px;
+        left: 7px;
+        background-color: #f5c506;
+        border-radius: 50%;
+        width: 14px;
+        height: 14px;
+    }
+    
+    .span3 {
+        position: absolute;
+        top: 140px;
+        left: 8px;
+        background-color: #f5c506;
+        border-radius: 50%;
+        width: 14px;
+        height: 14px;
+    }
+    
+    .span4 {
+        position: absolute;
+        top: 191px;
+        left: 7px;
+        background-color: #f5c506;
+        border-radius: 50%;
+        width: 14px;
+        height: 14px;
+    }
+    
+    .wrapper-footer {
+        background-color: #4c4c4c;
+        height: 64px;
+        filter: drop-shadow(-0.105px -2.998px 2.5px rgba(0,0,0,0.75));
+    }
+    
+    .logo-icon-footer {
+        position: absolute;
+        top: 3px;
+        left: 138px;
+    }
+    
+    .logo-footer {
+        font-size: 29px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-family: "Lucida Sans";
+        font-style: italic;
+        filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.42));
+        text-transform: uppercase;
+        padding-left: 200px;
+        padding-top: 11px;
+    }
+}
+
+
+
+
+    
+
