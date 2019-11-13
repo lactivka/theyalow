@@ -159,6 +159,10 @@ body {
     left: 1267px;
 }
 
+.scroll-video {
+    display: none;
+}
+
 .h1 {
     display: flex;
     flex-direction: column;
@@ -194,6 +198,10 @@ body {
     text-transform: uppercase;
     justify-content: center; 
     filter: drop-shadow(-1.105px -3.998px 2.5px rgba(0,0,0,0.15));  
+}
+
+.bg-icons-top {
+    display: none;
 }
 
 .better-design {
@@ -514,11 +522,12 @@ body {
     
     .wrapper-header {
         background-image: url('./assets/images/bgvideo.svg');
-        height: 386px;    
+        height: 386px;
+        width: 640px;    
     }
 
     .logo-wrapper {
-        width: 186px;
+        width: 185px;
         height: 62px;
         position: absolute;
         background-color: #3e3e3c;
@@ -547,16 +556,16 @@ body {
     }
     
     .navbar {
-        margin-top: 56px;
+        margin-top: -16px;
         position: absolute;
-        padding-left: 707px;
+        padding-left: 185px;
     }
     
     .navbar ul {
         display: flex;
         list-style-type: none;
-        width: 452px;
-        height: 40px;
+        width: 455px;
+        height: 62px;
         background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
         justify-content: space-around;
         padding: unset;
@@ -564,51 +573,54 @@ body {
     
     .navbar ul li a {
         display: flex;
-        font-size: 17px;
+        font-size: 19px;
         color: #9b7d08;
         font-family: "Segoe WP";
         text-decoration: none;
         text-transform: uppercase;
-        padding: 7px 9px 0px 0px;
+        padding: 7px 7px 0px 0px;
+        /*letter-spacing: 0.3px;*/
     }
     
     .about-us {
         margin-left: 20px;
+        margin: 11px 0px 0px 10px;
+    }
+
+    .about-us-icon {
+        width: 24px
     }
     
     .services {
         border-left: 1px solid;
         border-right: 1px solid;
         border-color: #b99403;
+        padding: 11px 0px 0px 0px;
     }
     
+    .services-icon {
+        width: 24px;
+    }
+     
     .contact {
-        padding-right: 5px;
+        padding: 11px 0px 0px 0px;
+    }
+
+    .contact-icon {
+        width: 29px;
     }
     
     .navbar-shadow1 {
-        width: 453px;
-        height: 40px;
-        background-color: #f5c506;
-        opacity: 27%;
-        position: absolute;
-        top: 67px;
-        left: 704px;
+        display: none;
     }
     
     .navbar-shadow2 {
-        width: 453px;
-        height: 40px;
-        background-color: #f5c506;
-        opacity: 27%;
-        position: absolute;
-        top: 64px;
-        left: 700px;
+        display: none;
     }
     
     .wrapper-video {
-        padding-top: 166px;
-        padding-left: 148px;
+        padding-top: 61px;
+        padding-left: 0px;
         letter-spacing: 1px; 
         font-family: "Asap";
         text-transform: uppercase;
@@ -621,6 +633,10 @@ body {
     .mobile-video {
         display: inherit;
     }
+
+    video[poster] {
+        object-fit: cover;
+    }
     
     .slider-left {
         display: none;
@@ -628,6 +644,13 @@ body {
     
     .slider-right {
         display: none;
+    }
+
+    .scroll-video {
+        display: inherit;
+        position: absolute;
+        top: 347px;
+        left: 133px;
     }
     
     .h1 {
