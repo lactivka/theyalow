@@ -284,10 +284,18 @@ body {
     z-index: 1;
 }
 
+.video-description-mobile {
+    display: none;
+}
+
 .plus-description {
     position: absolute;
     top: 191px;
     left: 313px;
+}
+
+.plus-description-mobile {
+    display: none;
 }
 
 .plus-description :hover {
@@ -303,10 +311,18 @@ body {
     overflow: hidden;
 }
 
+.magic {
+    display: none;
+}
+
 .twitter-logo {
     position: absolute;
     top: 888px;
     left: 829px;
+}
+
+.twitter-logo-mobile {
+    display: none;
 }
 
 .plus-twitter {
@@ -314,6 +330,10 @@ body {
     top: 1095px;
     left: 1135px;
 
+}
+
+.tweets {
+    display: none;
 }
 
 .plus-twitter:hover {
@@ -672,106 +692,124 @@ body {
     
     .wrapper-icons {
         background-image: url('./assets/images/bgicons.jpg');
-        height: 214px;
+        height: 168px;
+        width: 640px;
         display: flex;
-        font-size: 27px;
-        letter-spacing: 0px;
+        font-size: 23px;
+        letter-spacing: 0.3px;
         color: #000000;
         font-family: "Segoe UI";
         font-weight: 300;
         text-align: center;
         text-transform: uppercase;
         justify-content: center; 
-        filter: drop-shadow(-1.105px -3.998px 2.5px rgba(0,0,0,0.15));  
+    }
+
+    .bg-icons-top {
+        display: inherit;
+        position: absolute;
+        left: 0px;
     }
     
     .better-design {
-        width: 340px;
-        border-left: 1px solid #c4c3c3;
-        padding-top: 61px;
+        width: 205px;
+        position: absolute;
+        left: -15px;
+        top: -26px;
     }
     
     .better-design img {
-        padding-right: 5px;
-        padding-bottom: 3px;
+        padding-right: 0px;
+        padding-bottom: 11px;
+        width: 89px;
+        height: 62px;
     }
     
     .better-design span {
-        padding-left: 20px;
+        padding-left: 13px;
     }
     
     .customise {
         width: 340px;
-        border-right: 1px solid #c4c3c3;
-        border-left: 1px solid #c4c3c3;
-        padding-top: 37px;
+        position: absolute;
+        left: 147px;
+        top: -5px;
+        border: none;
     }
     
     .customise img {
-        padding-left: 20px;
-        padding-bottom: 7px;
+        width: 67px;
+        height: 69px;
     }
     
     .customise span {
-        padding-left: 19px;
+        padding-left: 24px;
     }
     
     .its-free {
         width: 340px;
-        border-right: 1px solid #c4c3c3;
-        padding-top: 53px;
+        border: none;
+        padding-top: 0px;
+        position: absolute;
+        top: 31px;
+        left: 372px;
     }
     
     .its-free img {
         padding-right: 24px;
-        padding-bottom: 3px;
+        padding-bottom: 8px;
+        width: 68px;
+        height: 69px;
     }
     
     .its-free span {
-        padding-right: 19px;
+        padding-right: 12px;
     }
     
     .wrapper-content {
-        background-image: url('./assets/images/bgcontent.svg');
+        background: none;
         height: 507px;
         padding-top: 1px;
     }
     
     .h2 {
-        width: 520px;
-        font-size: 37px;
-        color: #ffffff;
-        font-family: "PT Sans";
-        font-weight: 400;
-        text-transform: uppercase;
-        margin-left: 141px;
-        text-align-last: justify;
+        display: none;
     }
     
     .video-description {
+        display: none;
+    }
+
+    .video-description-mobile {
+        display: inherit;
         box-sizing: border-box;
-        width: 340px;
+        width: 300px;
         height: 232px;
         background-color: rgb(236, 158, 3);
-        letter-spacing: 0.4px;
+        letter-spacing: 0.3px;
         font-size: 29px;
-        line-height: 38px;
+        line-height: 34px;
         color: #ffffff;
         font-family: "Segoe WP Light";
         position: absolute;
-        top: 888px;
-        left: 140px;
-        padding: 17px 0px 0px 28px;
+        top: 569px;
+        left: 10px;
+        padding: 15px 26px 0px 26px;
         z-index: 1;
     }
     
     .plus-description {
+        display: none;
+    }
+
+    .plus-description-mobile {
+        display: inherit;
         position: absolute;
-        top: 191px;
-        left: 313px;
+        top: 187px;
+        left: 274px;
     }
     
-    .plus-description :hover {
+    .plus-description-mobile :hover {
         background-color: rgb(255, 94, 0);
     }
     
@@ -779,59 +817,88 @@ body {
         width: 349px;
         height: 232px;
         position: absolute;
-        top: 888px;
-        left: 446px;
-        overflow: hidden;
+        top: 569px;
+        left: 283px;
+    }
+
+    .magic {
+        display: inherit;
+        position: absolute;
+        width: 9px;
+        height: 232px;
+        z-index: 1;
+        background-color: white;
+        margin-left: 24px;
     }
     
     .twitter-logo {
+        display: none;
+    }
+
+    .twitter {
+        background-color: #f5c507;
         position: absolute;
-        top: 888px;
-        left: 829px;
+        top: 810px;
+        width: 640px;
+        height: 234px;
+    }
+
+    .twitter-logo-mobile {
+        display: inherit;
+        margin: 57px 0px 0px 79px;
     }
     
     .plus-twitter {
-        position: absolute;
-        top: 1095px;
-        left: 1135px;
-    
-    }
-    
-    .plus-twitter:hover {
-        background: rgb(255, 94, 0);
+        display: none;
     }
     
     .twitter span {
-        font-size: 25px;
-        letter-spacing: 0px;
-        line-height: 38px;
-        color: rgb(255, 255, 255, 0.8);
-        font-family: "Segoe WP Light";
-        font-weight: 300;
+        display: none;
+    }
+
+    .tweets {
+        display: inherit;
         position: absolute;
-        top: 897px;
-        left: 1114px;
-        z-index: 1;
+        top: 23px;
+        left: 318px;
+        font-size: 13px;
+        letter-spacing: 0.1px;
+        color: #8f8e8e;
+        font-family: "Arial";
+    }
+
+    .tweet-one div {
+        position: absolute;
+        top: 8px;
+        left: 35px;
+    }
+    
+    .tweet-two {
+        margin-top: 8px;
+    }
+    
+    .tweet-two div {
+        position: absolute;
+        top: 65px;
+        left: 35px;
+    }
+
+    .tweet-three {
+        margin-top: 8px;
+    }
+
+    .tweet-three div {
+        position: absolute;
+        top: 121px;
+        left: 35px;
+    }
+
+    .tweet-text-field {
+        margin: 8px 0px 0px 17px;
     }
     
     .date {
-        display: flex;
-        flex-direction: column;
-        width: 111px;
-        height: 88px;
-        position: absolute;
-        top: 1119px;
-        left: 140px;
-        font-size: 21px;
-        letter-spacing: 1px;
-        line-height: 38px;
-        color: #b26529;
-        font-family: "Segoe UI";
-        text-transform: uppercase;
-        background-color: #ddb101;
-        text-align: center;
-        padding: 14px 0px 0px 5px;
-        box-sizing: border-box;
+        display: none;
     }
     
     .date span {
@@ -843,32 +910,31 @@ body {
     }
     
     .scroll-bar {
-        position: absolute;
-        top: 1248px;
-        left: 211px;
+        display: none;
     }
     
     .wrapper-versions {
         background-image: url('./assets/images/bgversions.svg');
-        height: 499px;
+        width: 640px;
+        height: 465px;
+        margin-top: -18px;
     }
     
     .menu-header {
-        width: 604px;
-        font-size: 43px;
+        width: 591px;
+        font-size: 39px;
         letter-spacing: 0px;
         color: #f5c506;
-        font-family: "PT Sans";
+        font-family: "Open Sans";
         font-weight: 400;
         text-transform: uppercase;
-        padding: 35px 0px 0px 351px;
-        text-align-last: justify;
+        padding: 30px 0px 0px 19px;
     }
     
     .desktop {
         position: absolute;
-        top: 1422px;
-        left: 158px;
+        top: 1200px;
+        left: 57px;
     
     }
     
@@ -876,8 +942,8 @@ body {
         width: 117px;
         height: 117px;
         position: absolute;
-        top: 1379px;
-        left: 137px;
+        top: 1158px;
+        left: 26px;
         font-size: 19px;
         color: #ffffff;
         font-family: "PT Sans Narrow";
@@ -896,96 +962,44 @@ body {
     
     .tablet {
         position: absolute;
-        top: 1465px;
-        left: 505px;
+        top: 1242px;
+        left: 404px;
     }
     
     .mobile {
         position: absolute;
-        top: 1575px;
-        left: 659px;
+        top: 1353px;
+        left: 558px;
     }
     
     .menu {
-        position: absolute;
-        top: 1450px;
-        left: 771px;
-    }
-    
-    .menu-items {
-        list-style: none;
-        width: 352px;
-        height: 45px;
-        font-size: 22px;
-        letter-spacing: 0.1px;
-        color: #a9a9a7;
-        font-family: "Open Sans";
-        font-weight: 400;
-        line-height: 28px;
-        margin-top: 4px;
-    }
-    
-    .span1 {
-        position: absolute;
-        top: 24px;
-        left: 8px;
-        background-color: #f5c506;
-        border-radius: 50%;
-        width: 14px;
-        height: 14px;
-    }
-    
-    .span2 {
-        position: absolute;
-        top: 74px;
-        left: 7px;
-        background-color: #f5c506;
-        border-radius: 50%;
-        width: 14px;
-        height: 14px;
-    }
-    
-    .span3 {
-        position: absolute;
-        top: 140px;
-        left: 8px;
-        background-color: #f5c506;
-        border-radius: 50%;
-        width: 14px;
-        height: 14px;
-    }
-    
-    .span4 {
-        position: absolute;
-        top: 191px;
-        left: 7px;
-        background-color: #f5c506;
-        border-radius: 50%;
-        width: 14px;
-        height: 14px;
+        display: none;
     }
     
     .wrapper-footer {
         background-color: #4c4c4c;
-        height: 64px;
+        width: 640px;
+        height: 42px;
         filter: drop-shadow(-0.105px -2.998px 2.5px rgba(0,0,0,0.75));
     }
     
     .logo-icon-footer {
         position: absolute;
-        top: 3px;
-        left: 138px;
+        top: 6px;
+        left: 65px;
+        width: 31px;
+        height: 31px;
     }
     
     .logo-footer {
-        font-size: 29px;
+        font-size: 17px;
         letter-spacing: 0px;
         color: #ffffff;
         font-family: "Lucida Sans";
         font-style: italic;
         filter: drop-shadow(0px 2px 0px rgba(0,0,0,0.42));
         text-transform: uppercase;
-        padding-left: 200px;
+        padding-left: 104px;
         padding-top: 11px;
     }
 }

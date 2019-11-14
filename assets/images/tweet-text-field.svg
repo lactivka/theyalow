@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 281 49" width="281" height="49">
+	<defs>
+		<image width="77" height="49" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAAAxAQMAAAClJ7ZJAAAAAXNSR0IB2cksfwAAAANQTFRF7J4DcUniMAAAAA9JREFUeJxjYBgFowArAAACGwABjJYysQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff;stroke: #000000;paint-order:stroke fill markers;stroke-opacity:0.15;stroke-width: 2 } 
+		.txt1 { font-size: 15px;fill: #ffffff;font-family: "Arial" } 
+	</style>
+	<g id="twitter">
+		<g id="tweet_textfld">
+			<path id="Rounded Rectangle 3" class="shp0" d="M13 8L263 8C268.52 8 273 12.48 273 18L273 27C273 32.52 268.52 37 263 37L13 37C7.48 37 3 32.52 3 27L3 18C3 12.48 7.48 8 13 8Z" />
+			<use id="Layer 35" href="#img1" x="204" y="0" />
+			<text id="Tweet " style="transform: matrix(1,0,0,1,216.5,28)" >
+				<tspan x="0" y="0" class="txt1" dx="0 0 0 0 0 0" >Tweet </tspan>
+			</text>
+		</g>
+	</g>
+</svg>
